@@ -83,8 +83,6 @@ class _MainCanvas extends State<MainCanvas> {
                     setState(() {
                       xPos= details.localPosition.dx;
                       yPos= details.localPosition.dy;
-
-                      print('xPos~~~~~ ${xPos}');
                     });
                   }
 
